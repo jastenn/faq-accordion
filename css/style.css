@@ -1,0 +1,28 @@
+:root {
+    --clr-desaturated-blue-800: hsl(238, 29%, 16%);
+    --clr-soft-red-400: hsl(14, 88%, 65%);
+
+    --clr-soft-violet: hsl(273, 75%, 66%);
+    --clr-solf-blue: hsl(240, 73%, 65%);
+
+    --clr-gray-600: hsl(237, 12%, 33%);
+    --clr-gray-400: hsl(240, 6%, 50%);
+    --clr-gray-100: hsl(240, 5%, 91%);
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: .75rem;
+}
